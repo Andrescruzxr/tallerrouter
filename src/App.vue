@@ -1,8 +1,22 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link> |||----
+      <router-link to="/about">About</router-link>|---
+      <router-link to="/Inicio">Inicio</router-link>|---
+      <router-link to="/dashboard.Admin">dashboard.admin</router-link>|---
+       <router-link to="/create">Create</router-link>|---
+        <router-link to="/update">Update</router-link>|--
+        <router-link to="/index">Inicio</router-link>|---
+        <router-link to="/dashboard.usuario">Dashboard.usuario</router-link>|--
+        <router-link to="/Rol">ROL</router-link>|---
+        <router-link to="/Inicio.sesion">iNICIO SESION</router-link>|---|
+        |
+        |
+        |
+        |
+        
+         <router-link to="/siderbar">Siderbar</router-link>|
     </nav>
     <router-view/>
   </div>

@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Inicioview from '../views/Inicioview.vue'
+import Create from '../views/Admin/Productos/create.vue'
+import dashboard from '../views/Admin/dashboard.Admin.vue'
+
 
 Vue.use(VueRouter)
 
